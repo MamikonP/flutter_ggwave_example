@@ -1,0 +1,64 @@
+{
+  "buildFiles": [
+    "/Users/mamikonpapikyan/ggwave_flutter/ggwave/CMakeLists.txt",
+    "/Users/mamikonpapikyan/ggwave_flutter/ggwave/bindings/CMakeLists.txt",
+    "/Users/mamikonpapikyan/ggwave_flutter/ggwave/cmake/BuildTypes.cmake",
+    "/Users/mamikonpapikyan/ggwave_flutter/ggwave/cmake/GitVars.cmake",
+    "/Users/mamikonpapikyan/ggwave_flutter/ggwave/examples/CMakeLists.txt",
+    "/Users/mamikonpapikyan/ggwave_flutter/ggwave/src/CMakeLists.txt",
+    "/Users/mamikonpapikyan/ggwave_flutter/ggwave/tests/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/mamikonpapikyan/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/Users/mamikonpapikyan/ggwave_flutter/android/app/.cxx/Debug/695s1t6h/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/mamikonpapikyan/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/Users/mamikonpapikyan/ggwave_flutter/android/app/.cxx/Debug/695s1t6h/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "ggwave::@145eef247bfb46b6828c": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "ggwave",
+      "output": "/Users/mamikonpapikyan/ggwave_flutter/build/app/intermediates/cxx/Debug/695s1t6h/obj/x86_64/libggwave.so",
+      "runtimeFiles": []
+    },
+    "test-ggwave-c::@a44f0ac069e85531cdee": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "test-ggwave-c",
+      "output": "/Users/mamikonpapikyan/ggwave_flutter/android/app/.cxx/Debug/695s1t6h/x86_64/bin/test-ggwave-c",
+      "runtimeFiles": [
+        "/Users/mamikonpapikyan/ggwave_flutter/build/app/intermediates/cxx/Debug/695s1t6h/obj/x86_64/libggwave.so"
+      ]
+    },
+    "test-ggwave-cpp::@a44f0ac069e85531cdee": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "test-ggwave-cpp",
+      "output": "/Users/mamikonpapikyan/ggwave_flutter/android/app/.cxx/Debug/695s1t6h/x86_64/bin/test-ggwave-cpp",
+      "runtimeFiles": [
+        "/Users/mamikonpapikyan/ggwave_flutter/build/app/intermediates/cxx/Debug/695s1t6h/obj/x86_64/libggwave.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/mamikonpapikyan/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/mamikonpapikyan/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

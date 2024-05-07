@@ -1,0 +1,30 @@
+name: ggwave_flutter
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  ffi: ^2.1.0
+  flutter_sound: ^9.2.13
+  record: 5.0.0-beta.2
+  permission_handler: ^10.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/plucky.mp3
